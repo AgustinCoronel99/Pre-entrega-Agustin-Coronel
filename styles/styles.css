@@ -139,7 +139,6 @@ footer {
     margin-top: 5px;
 }
 
-
 /* pagina 1*/
 
 .contacto{
@@ -244,7 +243,7 @@ button:hover::before {
 .articulosDulce{
     display: grid;
     grid-template-rows: auto auto ;
-    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-columns: auto auto ;
     text-align: center;
 }
 
@@ -331,13 +330,11 @@ button:hover::before {
 .text-body {
     color: rgb(134, 134, 134);
 }
-
 /*Text*/
 .text-title {
     font-size: 1.5em;
     font-weight: bold;
 }
-
 /*Hover*/
 .card:hover {
     border-color: #008bf8;
@@ -358,9 +355,6 @@ button:hover::before {
         width: 180px;
         height: 150px;
     }
-    header {
-        width: 90%;
-        }
     h1{
         font-size: 90px ;
     }
@@ -378,31 +372,33 @@ button:hover::before {
         width: 100%;
         display: block;
     }
+    nav ul li{
+    margin: 0;
+    }
     nav ul li a{
     padding: 0%;
     display: block;
+    font-size: 19px;
     }
     .articulosDulce{
         grid-template-columns: 50% ;
         grid-template-rows: auto auto auto auto;
-        padding-left: 20px;
-    }
-    .imgProductos {
-        
+        justify-content: center;
     }
 }
 
 @media only screen and (min-width:768px) and (max-width: 1024px){
     nav{
-        font-size: 25px;
         justify-content: center;
     }
     nav ul li a {
         padding: 0%;
+        font-size: 27px;
         display: block;
     }
     h1{
-        font-size: 75px;
+        font-size: 95px;
+        text-align: center;
     }
     article h2 {
         font-size: 50px;
@@ -411,6 +407,9 @@ button:hover::before {
         font-size: 28px;
     }
     section p{
-        font-size: 22px;
+        font-size: 24px;
+    }
+    .cardDulce h2{
+    font-size: 32px;
     }
 }
