@@ -9,7 +9,7 @@
 }
 
 body{ 
-    background-color:#FFE7DD;
+    background-color: antiquewhite;
     font-family: 'Noto Sans Ethiopic', sans-serif;
     font-size: 20px;
 }
@@ -68,7 +68,7 @@ footer {
 
 .footerLogo{
     width:180px;
-    margin:70px;
+    margin:30px;
     display:inline;
 }
 
@@ -242,28 +242,10 @@ button:hover::before {
 
 .articulosDulce{
     display: grid;
-    grid-template-rows: auto auto ;
-    grid-template-columns: auto auto ;
-    text-align: center;
+    grid-template-columns: auto auto;
 }
 
-.cardDulce {
-    cursor: pointer;
-    width: 320px;
-    height: 480px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin: 4rem;
-}
-
-.cardDulce:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-.imgDulce{
+.articulosDulce img{
     width: 100%;
     height: 230px;
     border-radius: 20px;
@@ -274,28 +256,10 @@ button:hover::before {
 
 .articulosSalado{
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+    grid-template-columns: auto auto;
 }
 
-.cardSalado{
-    cursor: pointer;
-    width: 320px;
-    height: 480px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    margin: 4rem;
-}
-
-.cardSalado:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
-}
-
-.imgSalado{
+.articulosSalado img{
     width: 100%;
     height: 230px;
     border-radius: 20px;
